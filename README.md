@@ -19,7 +19,9 @@ We will evaluate the performance of these models and make a recommendation on wh
 
 ### SMOTE model
 <p align="center">
+ 
 ![image](https://github.com/morriscomia/Credit_Risk/blob/main/Resources/SMOTE.png)
+ 
 </p>
 The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only with 63% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
 <br><br>
@@ -28,14 +30,18 @@ The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only 
 
 ### BalancedRandomForestClassifier model
 <p align="center">
+
 ![image](https://github.com/morriscomia/Credit_Risk/blob/main/Resources/BalancedRandomForestClassifier.png)
+ 
 </p>
 The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 <br><br>
 
 ### EasyEnsembleClassifier model
 <p align="center">
- ![image](https://github.com/morriscomia/Credit_Risk/blob/main/Resources/Easy%20Ensemble%20AdaBoost%20Classifier.png)
+ 
+![image](https://github.com/morriscomia/Credit_Risk/blob/main/Resources/Easy%20Ensemble%20AdaBoost%20Classifier.png)
+ 
 </p>
 Now, the balanced accuracy score is high to about 93%.<br>The high_risk precision is still low at 8% only with 91% sensitivity which makes a F1 of only 16%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 93% with 100% presicion.
 <br><br>
